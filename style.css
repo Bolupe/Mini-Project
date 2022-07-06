@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0px;
+}
+html, body{
+    background-color: palevioletred;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.mainContainer{
+    padding: 50px;
+}
+.container1{
+    background-color: pink;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.container2{
+    background-color: pink;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+button{
+    cursor: pointer;
+    padding: 7px;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+#btn1{
+    background-color: palevioletred;
+    color: pink;
+    width: 150px;
+}
+#btn1:hover{
+    background-color: pink;
+    color: palevioletred;
+    transition: 0.3s;
+    padding: 9px;
+    border-radius: 10px;
+}
+#btn2{
+    background-color: palevioletred;
+    color: pink;
+    width: 100%;
+}
+#btn2:hover{
+    background-color: pink;
+    color: palevioletred;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(138, 132, 132);
+    width: 100%;
+    text-align: center;
+    padding: 5vh;
+}
+
